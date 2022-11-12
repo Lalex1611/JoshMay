@@ -1,0 +1,19 @@
+#Galeria figure{
+	position: relative;
+}
+
+#Galeria p {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	color: whitesmoke;
+	opacity: 0;
+	top: 0;
+	background-color: black;
+	transition: opacity .3s ease .1s;
+}
+
+#Galeria p:hover {
+	opacity: .5;
+}

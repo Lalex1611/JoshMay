@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html {
+	margin: 0;
+	font-size: 10px;
+	font-family: 'Oswald', sans-serif;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, .5);
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(#548CFF, #7900FF);
+	border-radius: 2.5rem;
+}
+
+::-o-scrollbar {
+	width: 1.5rem;
+}
+
+::-o-scrollbar-track {
+	background: rgba(0, 0, 0, .5);
+}
+
+::-o-scrollbar-thumb {
+	background: linear-gradient(#548CFF, #7900FF);
+	border-radius: 2.5rem;
+}
+
+body {
+	margin: 0px;
+	background: linear-gradient(#CFFFDC,#93FFD8);
+	width: 100%;
+}
+
+p {
+	font-size: 2rem;
+}
+
+.sencillos iframe {
+	width: 30rem;
+}
+
+.sencillos #info {
+
+}
+
+.EP iframe {
+	width: 100%;
+	margin-right: 0px;
+}
+
+header {
+	position: fixed;
+	display: block;
+	z-index: 3;
+	text-align: justify;
+	top: 0px;
+	left: 0px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: 0px;
+	width: 100%;
+	font-size: 2rem;
+	background: linear-gradient(#7743DB, #3B3486);
+}
+
+nav {
+	display: flex;
+	margin-top: 0.5rem;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav a {
+	border-radius: 1rem;
+	text-decoration: none;
+	color: whitesmoke;
+	transition: all ease .2s;
+}
+
+nav a:hover {
+	background-color: rgba(0, 0, 0, .5);
+	outline-style: solid;
+	outline-width: 1rem;
+	outline-color: rgba(0, 0, 0, .5);
+}
+
+main {
+	margin-top: 4.5rem;
+	margin-left: 0px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+	margin-bottom: 0.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+#Home {
+	position: relative;
+	overflow: hidden;
+	color: whitesmoke;
+	text-shadow: 1px 1px 1px black;
+	height: 40rem;
+}
+
+#Home img{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	transform: translate(0px, -55rem);
+}
+
+/*#Inicios,
+#Musica,
+#Galeria,
+#Contactos {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}*/
+
+#Inicios, #Musica, footer {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#Musica .sencillos {
+	font-size: 3rem;
+}
+
+.sencillos iframe {
+	margin-right: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+#Musica span {
+	display: inline-block;
+}
+
+.info {
+	margin-right: 2rem;
+	width: 50rem;
+}
+
+.lyrics {
+	overflow-y: scroll;
+	height: 20rem;
+	width: 50rem;
+}
+
+#Musica #corazon {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+}
+
+#Musica #dondestas {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+}
+
+#Musica #alright {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+}
+
+#Musica #amorpintao {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+}
+
+#Musica #cafecolom {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: space-between;
+}
+
+.EP ul {
+	list-style: circle;
+	font-size: 1.5rem;
+}
+
+#Galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+/*figure img {
+	-webkit-transition: .2s transform .1s ease-in-out;
+}
+
+figure img:hover {
+	-webkit-transform: scale(1.5);
+}
+
+figcaption {
+	text-align: center;
+	font-size: 1.6rem;
+}*/
+
+footer img {
+	border-radius: 50%;
+	height: 2rem;
+	transition: all ease .4s;
+}
+
+#youtube img:hover {
+	background-color: #ff3311;
+}
+
+#instagram img:hover {
+	background: linear-gradient(#002296, #c0007a, #ff8820, #f6ba00);
+}
+
+#facebook img:hover {
+	background-color: #0055ff;
+}
+
+#spotify img:hover {
+	background-color: #00ff99;
+}
+
+/*figcaption {
+	text-align: center;
+}*/
+
+hr { 
+  border: 0; 
+  height: 0.1rem;
+  width: 50rem; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+footer {
+	position: relative;
+	background: linear-gradient(#7743DB, #3B3486);
+	bottom: 0px;
+}
+
+footer #Contactos {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
+}
+
+.contratacion a {
+	text-decoration: none;
+	color: black;
+}
+
+footer.dev {
+	position: absolute;
+	background: transparent;
+	text-align: center;
+	margin: 0;
+}
+
+.dev p {
+	margin: 0;
+	text-align: center;
+	color: floralwhite;
+	font-style: italic;
+}
+
+@media only screen and (min-widht: 600px) {
+	html {
+		margin: 0px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 6px;
+	}
+
+	#Home img {
+		transform: translate(0rem, -20rem);
+	}
+}
